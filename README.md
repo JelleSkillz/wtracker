@@ -41,7 +41,7 @@ Een rustige kaartapp die alleen doet wat je bij het wandelen nodig hebt, volledi
 Ook later: waarschuwing als je van de gevolgde route afwijkt, kleuren instelbaar.
 
 **Keuzes die Play Store-publicatie open houden (geldt al vanaf versie 1)**
-- Unieke package-naam vanaf de start (bv. `be.<jouwnaam>.wandelapp`); die kan later niet meer veranderen.
+- Unieke package-naam vanaf de start (`be.jelleskillz.wandelapp`); die kan later niet meer veranderen.
 - Alleen kaartdata gebruiken die je mag verspreiden: Protomaps, Mapterhorn/Copernicus, eigen bewerkingen van OSM. **Geen** Organic Maps-`.mwm`-bestanden.
 - Geen `ACCESS_BACKGROUND_LOCATION`: opname via een foreground service die de gebruiker zelf start.
 - Geen tracking, analytics of advertenties: dat maakt het privacybeleid eenvoudig.
@@ -68,6 +68,7 @@ OSM België      ──► search.db         ─┘
 
 | Onderdeel | Keuze |
 |---|---|
+| Package-naam | `be.jelleskillz.wandelapp` |
 | Taal / UI | Kotlin, Jetpack Compose |
 | Kaartweergave | MapLibre Native Android |
 | Kaartformaat | PMTiles (lokale bestanden) |
