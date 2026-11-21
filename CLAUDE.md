@@ -3,6 +3,7 @@
 Lees eerst `README.md` (scope, architectuur, kleuren, OSM-selectie, definities van de statistieken) en `STAPPENPLAN.md` (taken en testcriteria per fase).
 
 ## Werkwijze
+- **Antwoord altijd in het Nederlands** (chat, plannen, uitleg). Code en commentaar blijven in het Engels (zie "Code").
 - Werk **per fase** uit `STAPPENPLAN.md`, en binnen een fase **één functie tegelijk**.
 - Een fase is pas klaar als alle punten onder "Klaar als" kloppen.
 - Berekeningen (statistieken, hoogte, calorieën) in aparte modules met unit tests, los van de UI.
