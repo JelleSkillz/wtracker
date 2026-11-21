@@ -3,6 +3,7 @@ data-pipeline/output/
 
 # Android / Gradle
 .gradle/
+.kotlin/
 build/
 local.properties
 *.apk
